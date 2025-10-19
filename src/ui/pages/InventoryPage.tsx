@@ -7,7 +7,7 @@ return (
 This is your inventory page. We’ll add item lists, filters, and editing soon.
 </p>
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-{/* Example item cards to prove layout + hover text */}
+
 {Array.from({ length: 6 }).map((_, i) => (
 <div
 key={i}
