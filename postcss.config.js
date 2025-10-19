@@ -1,4 +1,4 @@
-// PostCSS drives Tailwind and autoprefixer
+<!-- // PostCSS drives Tailwind and autoprefixer -->
 export default {
 plugins: {
 tailwindcss: {},
