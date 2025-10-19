@@ -1,9 +1,9 @@
-/* Tailwind base layers */
+<!-- /* Tailwind base layers */ -->
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-/* App-wide utilities (optional) */
+<!-- /* App-wide utilities (optional) */ -->
 :root { --ring: 0 0% 100%; }
 .focus-ring:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
