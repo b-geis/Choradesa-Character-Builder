@@ -1,4 +1,3 @@
-// Entry point: renders the Router tree into the DOM
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
@@ -8,7 +7,6 @@ import HomePage from './ui/pages/HomePage';
 import InventoryPage from './ui/pages/InventoryPage';
 
 
-// Hash Router avoids 404s on GitHub Pages when refreshing deep links
 const router = createHashRouter([
 {
 path: '/',
