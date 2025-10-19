@@ -1,4 +1,4 @@
-// Inventory page placeholder: we'll replace this with real logic later
+
 export default function InventoryPage() {
 return (
 <section className="space-y-3">
