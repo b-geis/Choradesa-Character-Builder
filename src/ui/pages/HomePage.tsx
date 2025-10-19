@@ -1,4 +1,4 @@
-// Home page: keep it simple until we add real features
+
 export default function HomePage() {
 return (
 <section className="space-y-3">
