@@ -5,6 +5,11 @@ import './index.css';
 import RootLayout from './ui/RootLayout';
 import HomePage from './ui/pages/HomePage';
 import InventoryPage from './ui/pages/InventoryPage';
+import UploadPage from './ui/pages/UploadPage';
+import { loadFromStorage } from './state/character';
+
+
+loadFromStorage();
 
 
 const router = createHashRouter([
@@ -14,6 +19,7 @@ element: <RootLayout />,
 children: [
 { index: true, element: <HomePage /> },
 { path: 'inventory', element: <InventoryPage /> },
+{ path: 'upload', element: <UploadPage /> },
 ],
 },
 ]);
