@@ -1,5 +1,5 @@
 {
-"name": "Choradesa-Character-Cuilder",
+"name": "Choradesa-Character-Builder",
 "private": true,
 "version": "0.0.0",
 "type": "module",
@@ -26,7 +26,7 @@
 }
 
 {
-"name": "choradesa-character-builder",
+"name": "Choradesa-Character-Builder",
 "private": true,
 "version": "0.0.0",
 "type": "module",
