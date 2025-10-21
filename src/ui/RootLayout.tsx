@@ -12,7 +12,8 @@ return (
 
 <NavButton to="/" label="Home" tooltip="Back to start" />
 <NavButton to="/inventory" label="Inventory" tooltip="Manage items" />
-
+<NavButton to="/upload" label="Upload" tooltip="Load a character JSON" />
+  
 
 <div className="ml-auto text-xs opacity-60" title="Vite + React + TS + Tailwind">
 v0.1 setup
